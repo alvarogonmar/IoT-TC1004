@@ -15,4 +15,6 @@ client = MongoClient(mongo_uri)
 db = client['MiDG']
 collection = db['Temperaturas']
 
+# Simular lecturas
+for i in range(20):
 

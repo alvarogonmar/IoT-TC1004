@@ -13,4 +13,6 @@ mongo_uri = os.getenv("MONGO_URI")
 # Conexión a MongoDB
 client = MongoClient(mongo_uri)
 db = client['MiDG']
+collection = db['Temperaturas']
+
 

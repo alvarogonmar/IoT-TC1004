@@ -19,3 +19,5 @@ collection = db['Temperaturas']
 for i in range(20):
     temperatura = random.randint(-20, 70)
 
+    documento = {
+

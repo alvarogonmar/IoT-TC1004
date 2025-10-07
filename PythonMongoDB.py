@@ -20,4 +20,9 @@ for i in range(20):
     temperatura = random.randint(-20, 70)
 
     documento = {
+        "sensor_id": "sensor_1",
+        "temperatura": temperatura,
+        "unidad": "Celsius",
+        "fecha_hora": datetime.now()
+    }
 

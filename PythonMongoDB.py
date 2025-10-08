@@ -27,4 +27,5 @@ for i in range(20):
     }
 
     result = collection.insert_one(documento)
+    print(f"Insertado documento con id {result.inserted_id}: {documento}")
 

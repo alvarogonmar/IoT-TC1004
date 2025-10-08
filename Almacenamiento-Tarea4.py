@@ -13,3 +13,4 @@ mongo_uri = os.getenv("MONGO_URI")
 
 # Conexión a MongoDB
 client = MongoClient(mongo_uri)
+db = client['Almacenamiento-Tarea-4']

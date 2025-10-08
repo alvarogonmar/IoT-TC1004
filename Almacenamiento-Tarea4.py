@@ -7,3 +7,6 @@ from dotenv import load_dotenv
 
 # Cargar variables del archivo .env
 load_dotenv()
+
+# Leer la variable MONGO_URI
+mongo_uri = os.getenv("MONGO_URI")

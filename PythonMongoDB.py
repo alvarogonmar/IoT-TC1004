@@ -26,3 +26,5 @@ for i in range(20):
         "fecha_hora": datetime.now()
     }
 
+    result = collection.insert_one(documento)
+

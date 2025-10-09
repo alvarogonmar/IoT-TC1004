@@ -22,3 +22,6 @@ sensores = [
     {"id": "temp_3", "tipo": "temperatura", "unidad": "Celsius"},
     {"id": "temp_4", "tipo": "temperatura", "unidad": "Celsius"},
     {"id": "hum_1", "tipo": "humedad", "unidad": "%"},
+    {"id": "hum_2", "tipo": "humedad", "unidad": "%"}
+]
+

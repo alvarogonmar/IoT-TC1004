@@ -25,3 +25,4 @@ sensores = [
     {"id": "hum_2", "tipo": "humedad", "unidad": "%"}
 ]
 
+for sensor in sensores:

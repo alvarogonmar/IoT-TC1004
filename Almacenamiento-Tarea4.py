@@ -18,3 +18,4 @@ collection = db['Temperaturas']
 
 sensores = [
     {"id": "temp_1", "tipo": "temperatura", "unidad": "Celsius"},
+    {"id": "temp_2", "tipo": "temperatura", "unidad": "Celsius"},

@@ -26,3 +26,4 @@ sensores = [
 ]
 
 for sensor in sensores:
+    for i in range(20):

@@ -15,3 +15,6 @@ mongo_uri = os.getenv("MONGO_URI")
 client = MongoClient(mongo_uri)
 db = client['Almacenamiento-Tarea-4']
 collection = db['Temperaturas']
+
+sensores = [
+    {"id": "temp_1", "tipo": "temperatura", "unidad": "Celsius"},

@@ -20,3 +20,4 @@ sensores = [
     {"id": "temp_1", "tipo": "temperatura", "unidad": "Celsius"},
     {"id": "temp_2", "tipo": "temperatura", "unidad": "Celsius"},
     {"id": "temp_3", "tipo": "temperatura", "unidad": "Celsius"},
+    {"id": "temp_4", "tipo": "temperatura", "unidad": "Celsius"},

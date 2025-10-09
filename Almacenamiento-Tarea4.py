@@ -27,3 +27,4 @@ sensores = [
 
 for sensor in sensores:
     for i in range(20):
+        if sensor["tipo"] == "temperatura":

@@ -43,3 +43,4 @@ for sensor in sensores:
         collection.insert_one(documento)
 
         if sensor["tipo"] == "temperatura" and valor > 30:
+            print(f"Alerta: En sensor: {sensor['id']} temperatura alta ({valor:.2f} °C)")

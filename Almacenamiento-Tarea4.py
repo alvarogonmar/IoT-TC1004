@@ -31,3 +31,5 @@ for sensor in sensores:
             valor = random.uniform(15, 35)
         else:
             valor = random.uniform(40, 90)
+
+        documento = {

@@ -37,3 +37,4 @@ for sensor in sensores:
             "tipo": sensor["tipo"],
             "valor": round(valor, 2),
             "unidad": sensor["unidad"],
+            "fecha_hora": datetime.now()

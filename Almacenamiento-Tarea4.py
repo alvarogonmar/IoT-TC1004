@@ -34,3 +34,4 @@ for sensor in sensores:
 
         documento = {
             "sensor_id": sensor["id"],
+            "tipo": sensor["tipo"],

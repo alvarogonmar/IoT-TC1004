@@ -36,3 +36,4 @@ for sensor in sensores:
             "sensor_id": sensor["id"],
             "tipo": sensor["tipo"],
             "valor": round(valor, 2),
+            "unidad": sensor["unidad"],

@@ -33,3 +33,4 @@ for sensor in sensores:
             valor = random.uniform(40, 90)
 
         documento = {
+            "sensor_id": sensor["id"],

@@ -38,3 +38,6 @@ for sensor in sensores:
             "valor": round(valor, 2),
             "unidad": sensor["unidad"],
             "fecha_hora": datetime.now()
+        }
+
+        collection.insert_one(documento)

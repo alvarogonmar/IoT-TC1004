@@ -46,3 +46,5 @@ for sensor in sensores:
             print(f"Alerta: En sensor: {sensor['id']} temperatura alta ({valor:.2f} °C)")
         elif sensor["tipo"] == "humedad" and valor < 50:
             print(f"Alerta: En sensor: {sensor['id']} humedad baja ({valor:.2f}%)")
+
+print("Lecturas generadas y almacenadas correctamente.")

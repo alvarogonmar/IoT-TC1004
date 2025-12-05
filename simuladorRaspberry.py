@@ -16,3 +16,4 @@ def send_post_request(url, sensor_id):
         headers = {'Content-Type': 'application/json'}
         value = random.uniform(10, 30)
         full_url = f"{url}/{sensor_id}?value={value}"
+        response = requests.post(full_url, headers=headers)

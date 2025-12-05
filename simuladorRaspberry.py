@@ -19,3 +19,4 @@ def send_post_request(url, sensor_id):
         response = requests.post(full_url, headers=headers)
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
         print(f"POST request successful. Status Code: {response.status_code}, Response: {response.json()}")
+    except requests.exceptions.RequestException as e:

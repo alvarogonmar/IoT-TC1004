@@ -21,3 +21,5 @@ def send_post_request(url, sensor_id):
         print(f"POST request successful. Status Code: {response.status_code}, Response: {response.json()}")
     except requests.exceptions.RequestException as e:
         print(f"Error sending POST request: {e}")
+
+if __name__ == "__main__":

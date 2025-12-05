@@ -17,3 +17,4 @@ def send_post_request(url, sensor_id):
         value = random.uniform(10, 30)
         full_url = f"{url}/{sensor_id}?value={value}"
         response = requests.post(full_url, headers=headers)
+        response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)

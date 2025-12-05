@@ -11,3 +11,4 @@ SENSOR_IDS = [1, 2, 3]
  
 
 def send_post_request(url, sensor_id):
+    """Sends a POST request to the specified URL with the given payload."""

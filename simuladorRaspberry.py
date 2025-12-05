@@ -18,3 +18,4 @@ def send_post_request(url, sensor_id):
         full_url = f"{url}/{sensor_id}?value={value}"
         response = requests.post(full_url, headers=headers)
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+        print(f"POST request successful. Status Code: {response.status_code}, Response: {response.json()}")

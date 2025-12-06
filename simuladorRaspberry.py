@@ -23,3 +23,4 @@ def send_post_request(url, sensor_id):
         print(f"Error sending POST request: {e}")
 
 if __name__ == "__main__":
+    print(f"Starting POST request loop to {TARGET_URL} with a {SLEEP_INTERVAL_SECONDS/60}-minute interval.")

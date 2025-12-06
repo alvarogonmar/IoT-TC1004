@@ -27,3 +27,4 @@ if __name__ == "__main__":
     while True:
         for sensor in SENSOR_IDS:
             send_post_request(TARGET_URL, sensor)
+        print(f"Sleeping {SLEEP_INTERVAL_SECONDS/60} minutes...\n")
